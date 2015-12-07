@@ -3,8 +3,9 @@ import media
 
 #Creating instances of a class
 titanic = media.Movie("Titanic",
-                      "A seventeen-year-old aristocrat falls in love with a kind, but"
-                      " poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+                      "A seventeen-year-old aristocrat falls in love with a kind, "
+                      " but poor artist aboard the luxurious, ill-fated R.M.S."
+                      " Titanic.",
                       "https://upload.wikimedia.org/wikipedia/en/2/22/Titanic_poster.jpg",
                       "https://www.youtube.com/watch?v=kVrqfYjkTdQ",
                       "Leonardo DiCaprio, Kate Winslet")
@@ -31,9 +32,10 @@ spy = media.Movie("Spy",
                   "https://www.youtube.com/watch?v=ltijEmlyqlg",
                   "Melissa McCarthy, Jason Statham")
 midnight_in_paris = media.Movie("Midnight in Paris",
-                                "While on a trip to Paris with his fiancée's family, a"
-                                " nostalgic screenwriter finds himself mysteriously"
-                                " going back to the 1920s every day at midnight.",
+                                "While on a trip to Paris with his fiancee's " 
+                                "family, a nostalgic screenwriter finds himself"
+                                " mysteriously going back to the 1920s every day"
+                                " at midnight.",
                                 "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
                                 "https://www.youtube.com/watch?v=FAfR8omt-CY",
                                 "Owen Wilson")
@@ -47,6 +49,7 @@ hunger_games = media.Movie("Hunger games",
                            "Jennifer Lawrence")
 
 #Defining array with movies 
-movies = [titanic, martian, jurassic_world, spy, midnight_in_paris, hunger_games]
+movies = [titanic, martian, jurassic_world, spy, midnight_in_paris, 
+          hunger_games]
 fresh_tomatoes.open_movies_page(movies)
 

@@ -1,3 +1,8 @@
+<h1>Quickstart: </h1>
+
+<li>cd to the repo </li>
+<li>run python entertainment_center.py </li>
+
 In this project you can find a single page Movie Trailer website, where you can see my favorite movies and watch trailers.
 
 This project is written using object oriented Python programming.
